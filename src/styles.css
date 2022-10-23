@@ -1,0 +1,71 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+body {
+  margin: 0px;
+}
+.opciones {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.opcion {
+  font-size: 40px;
+  border: 1px solid black;
+  border-radius: 45%;
+  padding: 50px;
+  cursor: pointer;
+  background-color: #735e51;
+  color: white;
+}
+
+.maquina {
+  font-size: 25px;
+}
+.jugador {
+  font-size: 25px;
+}
+.eleccion {
+  font-size: 25px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #d9b29c;
+  color: black;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+h1 {
+  margin: 0px;
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  color: white;
+  background-color: #a6341b;
+}
+h4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.abajito {
+  display: flex;
+  justify-content: baseline;
+  font-weight: bold;
+  padding-top: 100px;
+}
